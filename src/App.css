@@ -1,3 +1,59 @@
+@font-face {
+  font-family: Manrope-SemiBold;
+  src: url(./fonts/Manrope/static/Manrope-SemiBold.ttf);
+}
+
+.BG {
+  background-color: #1f2632;
+  height: 100vh;
+  padding-top: 200px;
+}
+
+.adviceBox {
+  background-color: #323a49;
+  height: auto;
+  max-width: 512px;
+  padding-top: 25px;
+  padding-bottom: 70px;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adviceTextRow {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.adviceText {
+  font-size: 28px;
+  color: #CEE3EA;
+  font-weight: 800;
+  font-family: Manrope-SemiBold;
+  padding-bottom: 10px;
+}
+
+.adviceNumber {
+  color: #52ffa8;
+  font-size: 15px;
+  font-family: Manrope-SemiBold;
+  letter-spacing: 3px;
+}
+
+.diceBtn {
+  background-color:#52ffa8;
+  border: none;
+  padding: 18px;
+  border-radius: 54px;
+  position: relative;
+  bottom: 35px;
+}
+
+.diceBtn:hover {
+  box-shadow: 0 0 30px #52ffa8;
+  opacity: 0.9;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +91,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width:560px){
+  .adviceBox {
+    background-color: #323a49;
+    height: auto;
+    max-width: auto;
+    padding-top: 45px;
+    padding-bottom: 70px;
+    border-radius: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
 }
