@@ -3,8 +3,8 @@ Date: 3/1/2024
 Lab Name: React Advice Generator
 Brief Description: Built in React and Typscript. Use https://api.adviceslip.com/advice for your API call. Must have a component folder ( App cannot be built in the app.js or in the index.js). Responsive to Mobile and Desktop versions. Must use all assets given. You can use bootstrap or tailwind. Goal is to recreate this challenge as close to the design as possible and having it function properly.
 
-Peer Reviewer:
-Peer Review Comments:
+Peer Reviewer: Zahid Afsar
+Peer Review Comments: The site is responsive and the functionality works well as inteneded. The only thing I would suggest is that since the api sometimes has the same advice twice or more times you could make it that if the current fetch id = next fetch id make it continue to fetch untill a differnt advice comes. Overall I would say that you did a greatjob.
 
 
 # Getting Started with Create React App
